@@ -33,6 +33,14 @@ class NavBar extends Component {
         >
           Card
         </Menu.Item>
+        <Menu.Item
+          name="mainform"
+          active={activeItem === "mainform"}
+          onClick={this.handleItemClick}
+          href="/mainform"
+        >
+          Main Form
+        </Menu.Item>
       </Menu>
     );
   }
