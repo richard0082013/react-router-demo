@@ -6,3 +6,4 @@
 
       install react-test-renderer, a library that enables you to render React components as JavaScript objects without the need of a DOM.
     After changing the test file, rerun the test, should have a flag -u or --updateSnapshot with jest command.
+#### Create a page to display users for implement lazy loading and infinite scorll. Using axios to call github api to fetch users, using Semantic UI list and loader for the UI. 

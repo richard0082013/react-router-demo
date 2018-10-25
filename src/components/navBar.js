@@ -41,6 +41,14 @@ class NavBar extends Component {
         >
           Main Form
         </Menu.Item>
+        <Menu.Item
+          name="users"
+          active={activeItem === "users"}
+          onClick={this.handleItemClick}
+          href="/users"
+        >
+          Users
+        </Menu.Item>
       </Menu>
     );
   }
