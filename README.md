@@ -5,5 +5,4 @@
 #### Using Jest to do a simple Snapshot test on MainForm, to test when page loaded, the MainForm component        will be rendered.
     ```
       install react-test-renderer, a library that enables you to render React components as JavaScript objects without the need of a DOM.
-    ```
     After changing the test file, rerun the test, should have a flag -u or --updateSnapshot with jest command.
