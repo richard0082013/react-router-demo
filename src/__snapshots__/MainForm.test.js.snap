@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when load 1`] = `
+<button
+  className="ui button"
+  onClick={[Function]}
+  role="button"
+>
+  Let's get it started! 
+</button>
+`;
